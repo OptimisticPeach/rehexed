@@ -1,0 +1,17 @@
+[package]
+name = "rehexed"
+version = "0.1.0"
+authors = ["OptimisticPeach <patrikbuhring@gmail.com>"]
+edition = "2021"
+description = "Adjacency lists for hexasphere's icospheres."
+readme = "./readme.md"
+repository = "https://github.com/OptimisticPeach/rehexed"
+license = "MIT OR Apache-2.0"
+keywords = ["gamedev", "graphics", "spheres", "hexasphere", "tiles"]
+categories = ["algorithms", "data-structures", "game-development"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrayvec = "0.7.4"
+
