@@ -213,7 +213,7 @@ pub fn rehexed(indices: &[u32], len: usize) -> Vec<[usize; 6]> {
         .into_iter()
         .map(|x| {
             let mut result = [usize::MAX; 6];
-            result.copy_from_slice(&x);
+            result[..x.len()].copy_from_slice(&x);
             result
         })
         .collect()
